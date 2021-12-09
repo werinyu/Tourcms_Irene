@@ -7,3 +7,12 @@ The tour name, tour url, summary, thumbnail image, duration description, locatio
 It is recommended to use the [TourCMS PHP client library](https://github.com/TourCMS/tourcms-php), sample code for connecting can be found on the GitHub page. Sample code for calling the Tour Search endpoint can be found on the endpoint page (link above).
 
 Sample HTML/CSS is provided in `tours.php`.
+
+## Problems running the code on Windows? 
+
+The API is accessed via https. Occasionally Windows users can have problems connecting to the API, if you have included the PHP wrapper and added credentials and do not get a response from the API, try opening `TourCMS.php` and adding the following two lines after `$ch = curl_init();` to bypass SSL checks:
+
+```php 
+curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+```
