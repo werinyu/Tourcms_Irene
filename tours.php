@@ -140,10 +140,6 @@ img.emoji {
 
 </div>
 
-<script>
-jQuery('.carousel').carousel();
-</script>
-
 
 <style>
 @media (max-width: 768px) {
