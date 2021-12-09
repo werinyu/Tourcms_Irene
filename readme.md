@@ -4,6 +4,6 @@ The task is to use TourCMS [Tour Search API](https://www.tourcms.com/support/api
 
 The tour name, tour url, summary, thumbnail image, duration description, location and from price should come from the TourCSM API response.
 
-Either using the [TourCMS PHP client library](https://github.com/TourCMS/tourcms-php) or a [library in a language you are familiar with](https://www.tourcms.com/support/api/mp/client_libraries.php).
+It is recommended to either use the [TourCMS PHP client library](https://github.com/TourCMS/tourcms-php) or a [library in a language you are familiar with](https://www.tourcms.com/support/api/mp/client_libraries.php).
 
-Sample HTML/CSS is provided.
+Sample HTML/CSS is provided in `tours.php`.
