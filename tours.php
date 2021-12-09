@@ -78,7 +78,7 @@ img.emoji {
 			</div>
 <div class="row">
 
-
+<!--- Desktop version of tour HTML, shown automatically at desktop resolutions -->
 
 <div class="col-12" id="postsdasd-49" class="post-49 tour type-tour status-publish hentry tag-inline product-type-day-tours location-berlin">
     <div class="card tour-desktop">
@@ -114,6 +114,9 @@ img.emoji {
     </div>
 </div>
 
+<!--- End Desktop tour HTML -->
+
+<!--- Mobile version of tour HTML, shown automatically at mobile resolutions -->
 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
           <div class="card tour-mobile">
 						
@@ -136,6 +139,7 @@ img.emoji {
             </div>
           </div>
 </div>
+<!--- End Mobile tour HTML -->
 
 
 </div>
